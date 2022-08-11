@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@900&display=swap');
+
+body{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 25vw;
+    background-color: black;
+    background-image: url('background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+textarea{
+    width: 20vw;
+    height: 10vw;
+    background-color: black;
+    margin: 1vw;
+    border-radius: 0.3vw;
+    align-content: center;
+    padding: 1vw;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Tourney', cursive;
+    border-color: rgba(27,53,100,255);
+    border-width: 0.5vw;
+    box-shadow: 0 0 0 0.5vw rgb(0 0 0);;
+    text-transform: uppercase;
+}
+
+img{
+    width: 5vw;
+}
+
+#image-container{
+    display: grid;
+}
+
+#item {
+    animation: MoveUpDown 0.7s linear infinite;
+    position: relative;
+}
+
+button{
+    width: 10vw;
+    font-size: 1vw;
+    font-family: 'Tourney', cursive;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    10%,40%,60%,90%{
+        transform: scaleY(90%);
+    }
+    5%,30%,50%,70%{
+        transform: scaleY(95%);
+    }
+    0%,20%,80%{
+        transform: scaleY(100%);
+    }
+    50% {
+        height: 5vw;
+        bottom: 0.7vw;
+    }
+}

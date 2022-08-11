@@ -1,0 +1,1 @@
+import {items} for './item_list.txt'
