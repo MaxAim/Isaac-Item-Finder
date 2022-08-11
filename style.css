@@ -4,7 +4,7 @@ body{
     display: grid;
     justify-content: center;
     justify-items: center;
-    padding-top: 25vw;
+    padding-top: 5vw;
     background-color: black;
     background-image: url('background.gif');
     background-size: cover;
@@ -12,15 +12,15 @@ body{
 }
 
 textarea{
-    width: 20vw;
-    height: 10vw;
+    width: 40vw;
+    height: 20vw;
     background-color: black;
     margin: 1vw;
     border-radius: 0.3vw;
     align-content: center;
     padding: 1vw;
     color: white;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-family: 'Tourney', cursive;
     border-color: rgba(27,53,100,255);
     border-width: 0.5vw;
@@ -34,6 +34,7 @@ img{
 
 #image-container{
     display: grid;
+    margin: 1vw;
 }
 
 #item {
